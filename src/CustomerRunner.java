@@ -4,7 +4,7 @@ public class CustomerRunner {
         Customer customer = new Customer("Aarti", homeAddress);
         Address workAddress = new Address("line 1", "Hyderabad", "500035");
         customer.setWorkAddress(workAddress);
-
+        System.out.println(customer);
 
     }
 }
