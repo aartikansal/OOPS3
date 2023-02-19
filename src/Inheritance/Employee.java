@@ -8,6 +8,12 @@ public class Employee extends Person {
     private char employeeGrade;
     private BigDecimal salary;
 
+    public Employee(String name, String title) {
+        super(name);// super class constructor definitely needs to be called
+        this.title = title;
+        System.out.println("Employee Constructor");
+    }
+
     public String getTitle() {
         return title;
     }
@@ -43,4 +49,6 @@ public class Employee extends Person {
     public String toString() {
         return super.toString() + "#" + title + "#" + employer + "#" + employeeGrade ;
     }
+
+
 }
