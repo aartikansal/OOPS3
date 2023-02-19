@@ -1,6 +1,6 @@
 package Inheritance;
 
-public class RecipeWithMicrowave extends AbstractRecipe{
+public class RecipeWithMicrowave extends AbstractRecipe {
     @Override
     void getReady() {
         System.out.println("Get the raw materials");
@@ -10,8 +10,9 @@ public class RecipeWithMicrowave extends AbstractRecipe{
     @Override
     void doTheDish() {
         System.out.println("do the dish");
-
+        System.out.println("Put it in the microwave");
     }
+
 
     @Override
     void cleanup() {
