@@ -41,6 +41,6 @@ public class Employee extends Person {
     }
 
     public String toString() {
-        return title + "#" + employer + "#" + employeeGrade;
+        return super.toString() + "#" + title + "#" + employer + "#" + employeeGrade ;
     }
 }
